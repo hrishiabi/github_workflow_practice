@@ -21,7 +21,7 @@ jobs:
       - name: Run a one-line script
         run: |
           echo "Hello, world!"
-          echo "${{GiTHUB_WORKSPACE}}"
+          echo "$GITHUB_WORKSPACE"
 
 
       # Run a multi-line script
